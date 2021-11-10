@@ -296,21 +296,16 @@ footer li{
     background-color: #E05B1A;
     
    }
-   20%{
+   40%{
     transform: translate(0, -100px); 
    }
-   40%{
+   60%{
        transform: translate(400px,-100px);
    }
-   60%{
-       transform: translate(400px,100px);
-   }
-   80%{
-        transform: translate(0,100px);
-   }
    100%{
-        transform: translate(0);
+       transform: translate(400px,0);
    }
+   
 }
 @keyframes move-2{
    from{
@@ -318,7 +313,7 @@ footer li{
    }
    to{
        background: #E05B1A;
-       transform: scale(1.1);
+       
    }
 
  }
@@ -327,20 +322,14 @@ footer li{
         background-color: #E05B1A;
         
        }
-       20%{
+       40%{
         transform: translate(0, 100px); 
        }
-       40%{
+       60%{
            transform: translate(-400px,100px);
        }
-       60%{
-           transform: translate(-400px,-100px);
-       }
-       80%{
-            transform: translate(0,-100px);
-       }
        100%{
-            transform: translate(0);
+           transform: translate(-400px,0);
        }
  }
  
